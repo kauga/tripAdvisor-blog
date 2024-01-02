@@ -377,3 +377,40 @@
     width: 77%;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .search-bar {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .imageInstead-video {
+    width: 340px;
+    height: 350px;
+  }
+
+  .subPage-email {
+    width: 160px;
+    font-size: 13px;
+  }
+  .sub-scribe {
+    width: 90px;
+    font-size: 11px;
+  }
+
+  .select-input,
+  select {
+    width: 9rem;
+    height: 1.9rem;
+  }
+
+  .recommend-div {
+    padding: 0 2rem;
+    gap: 2;
+  }
+
+  .progress-div {
+    padding: 0 2rem;
+  }
+
+}
