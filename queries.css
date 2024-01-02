@@ -1,0 +1,379 @@
+@media screen and (max-width: 1290px) {
+  .new-container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 1.5rem 2rem 0 2rem;
+  }
+
+  .new-container {
+    padding: 0;
+  }
+
+  .fixing-container {
+    padding: 0 3rem;
+  }
+
+  .aboutus-section {
+    padding: 0 4rem;
+  }
+
+  .section-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .from-blog-section {
+    padding: 0 5rem 15rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .card-section {
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 2rem;
+  }
+
+  .aboutus-section {
+    margin-top: 44rem;
+    padding: 0 4rem;
+  }
+
+  .about-div {
+    gap: 1.5rem;
+  }
+
+  .about-paragraph {
+    font-size: 14px;
+  }
+
+  .sub-page {
+    margin: 0 4rem;
+  }
+
+  .bloggerOne-img {
+    height: 100px;
+  }
+
+  .blogger-word {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .line {
+    top: 36%;
+    z-index: 999;
+  }
+
+  .about-heading {
+    font-size: 30px;
+  }
+
+  .imageInstead-video {
+    width: 456px;
+    height: 400px;
+    border-radius: 20px;
+  }
+
+  .subscribe {
+    font-size: 30px;
+  }
+
+  .sub-page {
+    width: 900px;
+    margin: 0 2rem;
+  }
+
+  /* mobile navigation */
+  .header {
+    position: fixed;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    right: 100%;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+    z-index: 1000;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 5rem;
+  }
+  .main-link,
+  .link {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .menuOpen {
+    display: block;
+    z-index: 999;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  .menuClose {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+
+  .header.hidden {
+    left: -100%;
+  }
+
+  .tanaWord-fixing {
+    font-size: 13px;
+  }
+
+  .new-footer {
+    height: 90vh;
+  }
+
+  .hellow-foter {
+    margin-bottom: 3rem;
+  }
+
+  .card-section {
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .section-cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 5rem;
+    gap: 1rem;
+  }
+
+  .threeCard-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+    padding-left: 4rem;
+  }
+
+  .fix-subpage {
+    flex-direction: column;
+    width: 700px;
+    margin: 0 1rem;
+  }
+
+  .hellow-foter {
+    grid-template-columns: 0.6fr 0.3fr 0.3fr 0.3fr;
+    gap: 1rem;
+    padding: 10rem 4rem 0 4rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .from-blog-section {
+    flex-direction: column;
+  }
+
+  .new-footer {
+    height: 100%;
+  }
+
+  .hellow-foter {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 3rem;
+  }
+
+  .aboutus-section {
+    margin-top: 65rem;
+    padding: 0 2rem;
+  }
+
+  .about-heading {
+    font-size: 25px;
+  }
+
+  .about-paragraph {
+    font-size: 12px;
+  }
+
+  .vertical-flex {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .recommendation-heading {
+    padding: 0 1rem;
+    text-align: center;
+  }
+  .section-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 0 1rem;
+  }
+
+  .threeCard-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .test1-4 {
+    margin-bottom: 2.5rem;
+  }
+
+  .sub-page {
+    width: 500px;
+    margin: 0 2rem;
+  }
+
+  .about-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-heading {
+    font-size: 25px;
+    line-height: 36px;
+  }
+
+  .about-paragraph {
+    font-size: 18px;
+  }
+
+  .card-section {
+    top: 118%;
+  }
+
+  .fixing-top {
+    margin-top: 0;
+  }
+
+  .line {
+    top: 52%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .resarvation-div {
+    width: 76%;
+  }
+  .sub-page {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .city-image {
+    border-radius: 7px;
+  }
+  .aboutus-section {
+    margin-top: 108rem;
+  }
+  .about-paragraph {
+    font-size: 14px;
+  }
+
+  .recommendation-heading {
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  .select-input,
+  select {
+    width: 10rem;
+    height: 2rem;
+  }
+
+  .hellow-foter {
+    padding: 10rem 2rem 0n 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .subscribe {
+    font-size: 22px;
+  }
+  .subPage-email {
+    width: 190px;
+    font-size: 14px;
+  }
+  .sub-scribe {
+    width: 100px;
+    font-size: 12px;
+  }
+  .copyright-word {
+    font-size: 15px;
+  }
+
+  .sub-menu {
+    font-size: 10px;
+    font-family: 200;
+  }
+
+  .trip-email {
+    font-size: 16px;
+  }
+
+  .contact-number {
+    font-size: 16px;
+  }
+
+  .imageInstead-video {
+    width: 380px;
+    height: 370px;
+    border-radius: 20px;
+  }
+
+  .blogger-word {
+    font-size: 13px;
+  }
+
+  .from-blog-section {
+    padding: 0 1.4rem 15rem 1.4rem;
+  }
+
+  .recommend-div {
+    padding: 0 4rem;
+    gap: 2;
+  }
+
+  .progress-div {
+    padding: 0 4rem;
+  }
+
+  .about-paragraph {
+    font-size: 12px;
+  }
+
+  .resarvation-div {
+    width: 77%;
+  }
+}
