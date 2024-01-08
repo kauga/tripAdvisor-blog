@@ -765,10 +765,16 @@ select {
   border-radius: 20px;
 }
 
+.enjoyment-video {
+  width: 556px;
+  height: 100%;
+  border-radius: 20px;
+}
+
 .bloggers-div {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1rem;
 }
 
 .blogger-one {
@@ -779,8 +785,8 @@ select {
 }
 
 .bloggerOne-img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
 }
 
