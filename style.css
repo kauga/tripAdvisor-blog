@@ -659,7 +659,7 @@ i {
   margin: 8rem 0;
   width: 100%;
   height: 100vh;
-  background-image: url(./images/nusa--penida1.jpeg);
+  background-image: url(./images/mist-2.png);
   position: relative;
 }
 .resarvation-div {
@@ -674,6 +674,7 @@ i {
   border: solid 2px #ffffff;
   transform: translate(-50%, -50%);
   border-radius: 30px;
+  border: solid 1pt #fff;
 }
 
 .resarvation-heading {

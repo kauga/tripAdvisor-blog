@@ -142,6 +142,10 @@
     grid-template-columns: repeat(3, 1fr);
     padding-left: 3rem;
   }
+
+  .testimonials-section {
+    padding: 3rem 10rem;
+  }
 }
 
 @media screen and (max-width: 965px) {
@@ -184,6 +188,10 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 3rem;
   }
+
+  /* .testimonials-section {
+    padding: 3rem 8rem;
+  } */
 }
 
 @media screen and (max-width: 750px) {
@@ -271,6 +279,10 @@
   .line {
     top: 52%;
   }
+
+  /* .testimonials-section {
+    padding: 3rem 6rem;
+  } */
 }
 
 @media screen and (max-width: 550px) {
@@ -280,6 +292,10 @@
   .sub-page {
     width: 90%;
   }
+
+  /* .testimonials-section {
+    padding: 3rem 5rem;
+  } */
 }
 
 @media screen and (max-width: 500px) {
@@ -376,6 +392,10 @@
   .resarvation-div {
     width: 77%;
   }
+
+  /* .testimonials-section {
+    padding: 3rem 4rem;
+  } */
 }
 
 @media screen and (max-width: 370px) {
@@ -412,5 +432,41 @@
   .progress-div {
     padding: 0 2rem;
   }
+  
+  .testimonials-section {
+    padding: 3rem 0;
+  }
 
+  .about-paragraph {
+    line-height: 16px;
+    font-size: 11px;
+  }
+
+  .section-offer {
+    margin-bottom: 3rem;
+  }
+
+  .aboutus-section {
+    margin-top: 120rem;
+  }
+
+  .vertical-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hellow-foter {
+    padding: 10rem 1rem 0 1rem;
+  }
+  .sub-menu {
+    font-size: 12px;
+  }
+
+  .i {
+    width: 15px;
+    height: 15px;
+    color: #a9e2ee;
+  }
 }
