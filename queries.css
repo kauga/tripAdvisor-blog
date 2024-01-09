@@ -424,6 +424,10 @@
     height: 1.9rem;
   }
 
+  .down-arrow {
+    height: 33px;
+  }
+
   .recommend-div {
     padding: 0 2rem;
     gap: 2;
