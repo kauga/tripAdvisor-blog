@@ -201,6 +201,11 @@ a {
   border-radius: 5px;
 }
 
+/* .search-bar::placeholder {
+  color: #888;
+  font-size: 24px;
+} */
+
 .search-btn {
   text-align: center;
   font-family: poppins;
@@ -641,7 +646,7 @@ span {
   box-shadow: none;
 }
 
-i {
+.icon1 {
   margin-top: 10px;
   margin-left: 10px;
   font-size: 2em;
@@ -659,9 +664,10 @@ i {
   margin: 8rem 0;
   width: 100%;
   height: 100vh;
-  background-image: url(./images/mist-2.png);
+  background-image: url(./images/mountain.png);
   position: relative;
 }
+
 .resarvation-div {
   position: absolute;
   width: 460px;
@@ -669,12 +675,30 @@ i {
   top: 50%;
   left: 50%;
   padding: 2rem 2rem 1rem 2rem;
-  background-color: #ffffff;
-  opacity: 50%;
+  background-color: #FFFFFF99;
+  opacity: 90%;
   border: solid 2px #ffffff;
   transform: translate(-50%, -50%);
   border-radius: 30px;
-  border: solid 1pt #fff;
+  border: solid 2px #fff;
+}
+
+.guest-selection {
+  position: relative;
+}
+.down-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #ffffff;
+  background: #000000;
+  width: 40px;
+  height: 37px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .resarvation-heading {
@@ -708,8 +732,8 @@ i {
 select {
   width: 13rem;
   height: 2.3rem;
-  /* border: ; */
-  background-color: #fff;
+  /* background-color: #ffffff; */
+  background-color: rgba(255, 255, 255, 1);
   font-family: poppins;
   font-size: 15px;
   font-weight: 500;
@@ -717,6 +741,7 @@ select {
   text-transform: capitalize;
   border-radius: 7px;
   margin-bottom: 1rem;
+  border: none;
 }
 
 .destination-room {
@@ -785,8 +810,8 @@ select {
 }
 
 .bloggerOne-img {
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
 }
 
@@ -901,10 +926,8 @@ select {
   margin-top: 10px;
 }
 
-.social-icon,
-i {
-  width: 30px;
-  height: 30px;
+.icon2 {
+  font-size: 30px;
   color: #a9e2ee;
 }
 /* .social-netwerk {
