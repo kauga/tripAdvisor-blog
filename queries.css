@@ -280,9 +280,9 @@
     top: 52%;
   }
 
-  /* .testimonials-section {
-    padding: 3rem 6rem;
-  } */
+  .testimonials-section {
+    margin: 3rem 6rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -293,9 +293,9 @@
     width: 90%;
   }
 
-  /* .testimonials-section {
-    padding: 3rem 5rem;
-  } */
+  .testimonials-section {
+    margin: 3rem 5rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -393,9 +393,9 @@
     width: 77%;
   }
 
-  /* .testimonials-section {
-    padding: 3rem 4rem;
-  } */
+  .testimonials-section {
+    margin: 3rem 4rem;
+  }
 }
 
 @media screen and (max-width: 370px) {
@@ -438,7 +438,7 @@
   }
   
   .testimonials-section {
-    padding: 3rem 0;
+    margin: 3rem 0;
   }
 
   .about-paragraph {
@@ -472,5 +472,37 @@
     width: 15px;
     height: 15px;
     color: #a9e2ee;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .gest-dates {
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resarvation-div {
+    width: 200px;
+    height: 650px;
+  }
+
+  .destination-room {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .sub-page {
+    width: 80%;
+  }
+
+  .subPage-email {
+    width: 145px;
+    font-size: 11px;
+  }
+  .sub-scribe {
+    width: 90px;
+    font-size: 10px;
   }
 }
