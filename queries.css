@@ -476,22 +476,28 @@
 }
 
 @media screen and (max-width: 365px) {
-  .gest-dates {
+  /* .gest-dates {
     flex-direction: column;
     row-gap: 15px;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   .resarvation-div {
-    width: 200px;
-    height: 650px;
+    /* width: 200px;
+    height: 650px; */
+    padding: 1rem 1rem 1rem 1rem;
   }
 
-  .destination-room {
+  .select-input,
+select {
+  width: 8rem;
+}
+
+  /* .destination-room {
     flex-direction: column;
     justify-content: center;
-  }
+  } */
 
   .sub-page {
     width: 80%;
@@ -505,4 +511,9 @@
     width: 90px;
     font-size: 10px;
   }
+
+  /* .resarvation-section {
+    height: 100%;
+    margin: 16rem 0;
+  } */
 }
