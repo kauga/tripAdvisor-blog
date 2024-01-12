@@ -57,6 +57,10 @@
     height: 90px;
   }
 
+  .fixing-top {
+    margin-top: 0;
+  }
+
   .blogger-word {
     font-size: 15px;
   }
@@ -224,6 +228,12 @@
   .from-blog-section {
     padding: 0 0 15rem 0;
   }
+  
+  .aboutus-section {
+    margin-top: 65rem;
+    padding: 0 2rem;
+    /* for trial */
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -304,10 +314,6 @@
     top: 118%;
   }
 
-  .fixing-top {
-    margin-top: 0;
-  }
-
   .line {
     top: 52%;
   }
@@ -327,6 +333,11 @@
 
   .testimonials-section {
     margin: 3rem 5rem;
+  }
+
+  .aboutus-section {
+    margin-top: 102rem;
+    /* for trial */
   }
 }
 
@@ -517,16 +528,7 @@
 }
 
 @media screen and (max-width: 365px) {
-  /* .gest-dates {
-    flex-direction: column;
-    row-gap: 15px;
-    justify-content: center;
-    align-items: center;
-  } */
-
   .resarvation-div {
-    /* width: 200px;
-    height: 650px; */
     padding: 1rem 1rem 1rem 1rem;
   }
 
@@ -534,11 +536,6 @@
 select {
   width: 8rem;
 }
-
-  /* .destination-room {
-    flex-direction: column;
-    justify-content: center;
-  } */
 
   .sub-page {
     width: 80%;
@@ -552,17 +549,9 @@ select {
     width: 90px;
     font-size: 10px;
   }
-
-  /* .resarvation-section {
-    height: 100%;
-    margin: 16rem 0;
-  } */
 }
 
 @media screen and (max-width: 320px) {
-  /* .enjoyment-video {
-    width: 300px;
-  } */
   .card-section {
     padding-left: 3rem;
   }
@@ -575,10 +564,6 @@ select {
     flex-direction: column;
     row-gap: 10px;
   }
-
-  /* .blog-section {
-    margin-top: 50rem;
-  } */
   
   .gest-dates {
     display: flex;
