@@ -549,6 +549,10 @@ select {
     width: 90px;
     font-size: 10px;
   }
+
+  .aboutus-section {
+    margin-top: 107rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
